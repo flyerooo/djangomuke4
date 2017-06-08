@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'users',
     'courses',
     'organization',
-    'operation'
+    'operation',
+    'xadmin',
+    'crispy_forms'
 ]
 
 AUTH_USER_MODEL = 'users.UserProfile'
@@ -90,7 +92,7 @@ DATABASES = {
         'PASSWORD': 'jeff',
         'HOST': '127.0.0.1',
         'OPTIONS': {
-         "init_command": "SET foreign_key_checks = 0;",
+        "init_command": "SET foreign_key_checks = 0;",
     },
     }
 }
