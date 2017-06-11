@@ -32,8 +32,8 @@ class ActiveUserView(View):
                 user = UserProfile.objects.get(email=email)
                 user.is_active = True
                 user.save()
-        # else:
-        #     return render(request,'active_file.html',{})
+        else:
+            return render(request,'active_file.html',{})
 
         return render(request,'login.html',{})
 
