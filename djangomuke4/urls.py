@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 """djangomuke4 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,6 +21,8 @@ import xadmin
 
 
 from users.views import LoginView, RedisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from organization.views import OrgView
+
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -33,4 +36,7 @@ urlpatterns = [
     url(r'^forget/$', ForgetPwdView.as_view(), name='forget_pwd'),
     url(r'^reset/(?P<active_code>.*)/$',ResetView.as_view(),name='reset_pwd'),
     url(r'^modify_pwd/$', ModifyPwdView.as_view(), name='modify_pwd'),
+
+    # 课程机构首页
+    url(r'^org_list/$', OrgView.as_view(), name='org_list'),
 ]
