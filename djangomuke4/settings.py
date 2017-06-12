@@ -149,3 +149,6 @@ EMAIL_HOST_USER = 'djangomuke@sina.com'
 EMAIL_HOST_PASSWORD = '120880127s'
 EMAIL_USE_TLS = False
 EMAIL_FROM = 'djangomuke@sina.com'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
