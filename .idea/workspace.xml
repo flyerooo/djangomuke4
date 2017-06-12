@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4347e4e7-7305-4033-85cb-61025b627edc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/bjdx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_Gn1sRjp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_OO2ykYP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_V0TJOyb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_Y2Tonsq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_klgAUn5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/imooc_qEaMov1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/njdx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/11/qhdx-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/12/bjdx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/12/bjdx_bcd0m07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/12/bjdx_cCpdUw8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/12/imooc_Gn1sRjp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/org/2016/12/imooc_klgAUn5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/active_fail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-play.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-course.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-desc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-teachers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teacher-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teachers-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-mycourse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/views.py" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangomuke4/settings.py" afterPath="$PROJECT_DIR$/djangomuke4/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/forgetpwd.html" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/org-list.html" afterPath="$PROJECT_DIR$/templates/org-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/password_reset.html" afterPath="$PROJECT_DIR$/templates/password_reset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/send_success.html" afterPath="$PROJECT_DIR$/templates/send_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,13 +32,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+            <state relative-caret-position="1796">
+              <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
               <folding>
-                <element signature="e#24#59#0" expanded="true" />
+                <element signature="e#23#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,24 +76,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="86">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="e#23#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -243,7 +186,6 @@
         <option value="$PROJECT_DIR$/templates/send_success.html" />
         <option value="$PROJECT_DIR$/templates/forgetpwd.html" />
         <option value="$PROJECT_DIR$/apps/users/forms.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/templates/password_reset.html" />
         <option value="$PROJECT_DIR$/djangomuke4/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
@@ -251,6 +193,7 @@
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/views.py" />
         <option value="$PROJECT_DIR$/templates/org-list.html" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
       </list>
     </option>
   </component>
@@ -320,6 +263,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djangomuke4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djangomuke4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,7 +800,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497258608461</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="增加 其它页面模板">
+      <created>1497274247470</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1497274247470</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -901,8 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加courses moudels内容" />
-    <MESSAGE value="创建organization app 并增添 moudels内容" />
     <MESSAGE value="创建operation app 并增添 moudels内容" />
     <MESSAGE value="执行makemigrations，migrate" />
     <MESSAGE value="创建python package apps" />
@@ -926,14 +892,16 @@
     <MESSAGE value="如激活验证失败，返回链接无效页面" />
     <MESSAGE value="添加修改密码功能" />
     <MESSAGE value="增加 机构列表详情页" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 机构列表详情页" />
+    <MESSAGE value="增加 其它页面模板" />
+    <MESSAGE value="增加 分页函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 分页函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/users/views.py</url>
-          <line>68</line>
+          <line>103</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -943,12 +911,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/users/views.py</url>
-          <line>105</line>
+          <line>127</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/users/views.py</url>
-          <line>128</line>
+          <line>153</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
@@ -1304,16 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangomuke4/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1343,10 +1301,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="86">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="e#23#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1796">
+          <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
